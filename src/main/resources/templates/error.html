@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .error-container {
+            text-align: center;
+        }
+        .error-title {
+            font-size: 24px;
+            color: #dc3545;
+        }
+        .error-message {
+            font-size: 18px;
+            color: #6c757d;
+        }
+        .error-icon {
+            font-size: 48px;
+            color: #dc3545;
+        }
+        .error-action {
+            margin-top: 20px;
+        }
+        .error-action a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"></path>
+            </svg>
+        </div>
+        <div class="error-title">Incorrect Username or Password</div>
+        <div class="error-message">The username or password you entered is incorrect. Please try again.</div>
+        <div class="error-action"><a href="/login">Back to Login Page</a></div>
+    </div>
+</body>
+</html>
